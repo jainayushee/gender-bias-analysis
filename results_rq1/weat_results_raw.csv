@@ -1,0 +1,7 @@
+embedding,test,weat_d,p_value,n_perm,n_X,n_Y,n_A,n_B
+word2vec-google-news-300,WEAT6_gender_names__career_family,1.6345549840225189,0.00019998000199980003,10000,10,10,8,8
+word2vec-google-news-300,WEAT7_science_arts__male_female_terms,1.0844268221949298,0.022797720227977204,10000,8,8,8,8
+word2vec-google-news-300,WEAT8_math_arts__male_female_terms,1.1124603665844306,0.018998100189981004,10000,8,8,8,8
+glove-wiki-gigaword-300,WEAT6_gender_names__career_family,1.654422769342933,9.999000099990002e-05,10000,10,10,8,8
+glove-wiki-gigaword-300,WEAT7_science_arts__male_female_terms,1.368223444596374,0.0011998800119988001,10000,8,8,8,8
+glove-wiki-gigaword-300,WEAT8_math_arts__male_female_terms,0.989789613948394,0.035996400359964,10000,8,8,8,8

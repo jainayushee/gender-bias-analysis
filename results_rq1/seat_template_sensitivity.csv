@@ -1,0 +1,31 @@
+model,test,template,seat_d_mean,seat_d_max
+bert-base-uncased,WEAT6_gender_names__career_family,This is {}.,1.0188358218621043,1.485208949210363
+bert-base-uncased,WEAT6_gender_names__career_family,{} is a person.,1.135345820623169,1.66272515302388
+bert-base-uncased,WEAT6_gender_names__career_family,They talked about {}.,1.0096097987077128,1.3717094969780532
+bert-base-uncased,WEAT6_gender_names__career_family,I heard about {} yesterday.,0.9990423995286273,1.6238268062127015
+bert-base-uncased,WEAT6_gender_names__career_family,People often mention {}.,0.8869691822296093,1.3894139059874588
+bert-base-uncased,WEAT6_gender_names__career_family,The discussion was about {}.,1.243207393154194,1.4208470075929878
+bert-base-uncased,WEAT6_gender_names__career_family,One individual is named {}.,1.2590682426233724,1.4466472492867757
+bert-base-uncased,WEAT6_gender_names__career_family,Here we consider {}.,1.1312601698482003,1.4233615483859985
+bert-base-uncased,WEAT6_gender_names__career_family,Someone referred to {}.,1.1130423790485826,1.4092837209083606
+bert-base-uncased,WEAT6_gender_names__career_family,Everyone knows {}.,1.0970733814693487,1.5740581142942414
+bert-base-uncased,WEAT7_science_arts__male_female_terms,This is {}.,0.2729692074142438,-1.1808702280715262
+bert-base-uncased,WEAT7_science_arts__male_female_terms,{} is a person.,0.15082068070047386,-1.0649857486195002
+bert-base-uncased,WEAT7_science_arts__male_female_terms,They talked about {}.,0.24395829184303483,-1.1447445004916599
+bert-base-uncased,WEAT7_science_arts__male_female_terms,I heard about {} yesterday.,0.46021116019173536,1.1271303415242915
+bert-base-uncased,WEAT7_science_arts__male_female_terms,People often mention {}.,-0.04055782760078549,0.8617831901056867
+bert-base-uncased,WEAT7_science_arts__male_female_terms,The discussion was about {}.,-0.054296246633440126,-1.1327699506280615
+bert-base-uncased,WEAT7_science_arts__male_female_terms,One individual is named {}.,0.0975043113361207,-1.2086764979297677
+bert-base-uncased,WEAT7_science_arts__male_female_terms,Here we consider {}.,0.32999573456705383,-1.3363266408388248
+bert-base-uncased,WEAT7_science_arts__male_female_terms,Someone referred to {}.,0.006311945319523375,-1.2778620580090938
+bert-base-uncased,WEAT7_science_arts__male_female_terms,Everyone knows {}.,0.03612776068645835,0.9933538884986584
+bert-base-uncased,WEAT8_math_arts__male_female_terms,This is {}.,-0.24519723620271558,-1.2741820404790791
+bert-base-uncased,WEAT8_math_arts__male_female_terms,{} is a person.,0.6169044201471153,1.211520168422598
+bert-base-uncased,WEAT8_math_arts__male_female_terms,They talked about {}.,0.2904116405128317,1.1844967956752699
+bert-base-uncased,WEAT8_math_arts__male_female_terms,I heard about {} yesterday.,0.1865652761106846,-0.9874330289796455
+bert-base-uncased,WEAT8_math_arts__male_female_terms,People often mention {}.,0.45380658720076456,1.1169852841814498
+bert-base-uncased,WEAT8_math_arts__male_female_terms,The discussion was about {}.,0.4669163183407816,1.4541898243448903
+bert-base-uncased,WEAT8_math_arts__male_female_terms,One individual is named {}.,0.6786726480319715,1.3613431197689365
+bert-base-uncased,WEAT8_math_arts__male_female_terms,Here we consider {}.,0.8583341805940962,1.3179768924741493
+bert-base-uncased,WEAT8_math_arts__male_female_terms,Someone referred to {}.,0.33148439471368,1.1452064097037746
+bert-base-uncased,WEAT8_math_arts__male_female_terms,Everyone knows {}.,0.09757612745108442,0.741712662760179

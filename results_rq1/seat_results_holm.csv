@@ -1,0 +1,4 @@
+model,test,p_raw,p_holm,reject_at_alpha=0.05
+bert-base-uncased,WEAT6_gender_names__career_family,0.00019998000199980003,0.0005999400059994001,True
+bert-base-uncased,WEAT7_science_arts__male_female_terms,0.0164983501649835,0.032996700329967,True
+bert-base-uncased,WEAT8_math_arts__male_female_terms,0.038396160383961604,0.038396160383961604,True

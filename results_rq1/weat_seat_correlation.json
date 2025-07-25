@@ -1,0 +1,20 @@
+{
+  "tests_used": [
+    "WEAT6_gender_names__career_family",
+    "WEAT7_science_arts__male_female_terms",
+    "WEAT8_math_arts__male_female_terms"
+  ],
+  "pearson_r": 0.8577121023235507,
+  "pearson_p": 0.3437704411122802,
+  "pearson_95ci": [
+    NaN,
+    NaN
+  ],
+  "spearman_r": 0.5,
+  "spearman_p": 0.6666666666666667,
+  "spearman_95ci": [
+    NaN,
+    NaN
+  ],
+  "n_tests": 3
+}
