@@ -1,0 +1,76 @@
+{
+  "config": {
+    "DATASET": "LabHC/bias_in_bios",
+    "TEXT_COL": "hard_text",
+    "Y_COL": "profession",
+    "G_COL": "gender",
+    "TOP_K_PROFESSIONS": 28,
+    "MAX_PER_GROUP_TRAIN": 400,
+    "MAX_PER_GROUP_DEV": 100,
+    "MAX_PER_GROUP_TEST": 200,
+    "MAX_LEN": 128,
+    "MAX_STEPS": 150,
+    "BATCH_TRAIN": 32,
+    "BATCH_EVAL": 64,
+    "LR": 2e-05,
+    "WEIGHT_DECAY": 0.01,
+    "SEEDS": [
+      1,
+      2,
+      3
+    ],
+    "LAMBDAS": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "LORA_R": 8,
+    "LORA_ALPHA": 16,
+    "LORA_DROPOUT": 0.05,
+    "LORA_TARGET_MODULES": [
+      "query",
+      "key",
+      "value",
+      "dense"
+    ],
+    "MAX_MACROF1_DROP": 0.01,
+    "OUT_DIR": "runs_bias_in_bios_rq2",
+    "FP16": false
+  },
+  "best_lambda_full": 0.2,
+  "best_full_dev": {
+    "lambda": 0.2,
+    "mf1_mean": 0.5452967350880119,
+    "gap_mean": 0.01383389779880769
+  },
+  "best_lambda_lora": 0.0,
+  "best_lora_dev": {
+    "lambda": 0.0,
+    "mf1_mean": 0.009421223838652015,
+    "gap_mean": 0.002794882302446492
+  },
+  "auf_full": 0.4597941969204411,
+  "auf_lora": 0.3739921518476709,
+  "pareto_full": [
+    {
+      "util": 0.5575318641395689,
+      "fair": 0.008945653412908428,
+      "lambda": 0.1
+    }
+  ],
+  "pareto_lora": [
+    {
+      "util": 0.010565775877563173,
+      "fair": 0.003074721801672762,
+      "lambda": 1.0
+    },
+    {
+      "util": 0.010708771758679313,
+      "fair": 0.003104377838361922,
+      "lambda": 0.5
+    }
+  ]
+}
